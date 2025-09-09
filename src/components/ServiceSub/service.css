@@ -1,0 +1,7 @@
+/* index.css or globals.css */
+@media (min-width: 768px) and (max-width: 820px) {
+    .custom-shift {
+        margin-left: -2rem;
+        /* adjust as needed */
+    }
+}
