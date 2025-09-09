@@ -229,7 +229,7 @@ export default function BathroomWaterproofing() {
 
             {/* FAQ Section */}
             <section className="py-16  bg-gray-100">
-                <FAQSection />
+                <FAQSection type="bathroom" />
             </section>
             <Footer />
         </div>

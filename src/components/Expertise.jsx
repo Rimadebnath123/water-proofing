@@ -39,7 +39,7 @@ function Expertise() {
                 </div>
             </header>
 
-            {/* Section 1: Basement Waterproofing - Image Right */}
+            {/* Section 1: Swimming Pool Waterproofing - Image Right */}
             <section className="mt-4 py-16 bg-white">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -77,7 +77,7 @@ function Expertise() {
                             </div>
 
                             <button className="bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-900 transition-colors">
-                                Learn More
+                                <Link to="/SwimmingpoolWaterproofing">Learn More</Link>
                             </button>
                         </div>
 
@@ -92,7 +92,7 @@ function Expertise() {
                 </div>
             </section>
 
-            {/* Section 2: Roof Waterproofing - Image Left */}
+            {/* Section 2: Terrace Waterproofing - Image Left */}
             <section className="py-16 bg-gray-50">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
@@ -140,7 +140,7 @@ function Expertise() {
                             </div>
 
                             <button className="bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-900 transition-colors">
-                                <Link to="/bathroom">Learn More</Link>
+                                <Link to="/TerraceWaterproofing">Learn More</Link>
                             </button>
                             
                         </div>
@@ -188,7 +188,7 @@ function Expertise() {
                             </div>
 
                             <button className="bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-900 transition-colors">
-                                Learn More
+                                <Link to="/WallWaterproofing">Learn More</Link>
                             </button>
                         </div>
 
@@ -298,7 +298,7 @@ function Expertise() {
                             </div>
 
                             <button className="bg-blue-800 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-900 transition-colors">
-                                Learn More
+                                <Link to="/FoundationWaterproofing">Learn More</Link>
                             </button>
                         </div>
 

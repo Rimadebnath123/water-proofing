@@ -6,6 +6,11 @@ import ExpertisePage from '../src/components/Expertise';
 import ScrollToTop from '../src/components/ScrollToTop';
 import ContactPage from '../src/components/ContactUs';
 import BathroomWaterproofing from './components/ServiceSub/bathroomWaterproofing';
+import SwimmingpoolWaterproofing from './components/ServiceSub/SwimmingpoolWaterproofing';
+import TerraceWaterproofing from './components/ServiceSub/TerraceWaterproofing';
+import WallWaterproofing from './components/ServiceSub/WallWaterproofing';
+import FoundationWaterproofing from './components/ServiceSub/FoundationWaterproofing';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -19,6 +24,10 @@ function App() {
         <Route path="/services" element={<ServicesPage />} />
         <Route path="/expertise" element={<ExpertisePage />} />
         <Route path="/bathroomWaterproofing" element={<BathroomWaterproofing />} />
+        <Route path="/SwimmingpoolWaterproofing" element={<SwimmingpoolWaterproofing />} />
+        <Route path="/TerraceWaterproofing" element={<TerraceWaterproofing />} />
+        <Route path="/WallWaterproofing" element={<WallWaterproofing />} />
+        <Route path="/FoundationWaterproofing" element={<FoundationWaterproofing />} />
       </Routes>
     </Router>
   );
