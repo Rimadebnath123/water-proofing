@@ -4,60 +4,63 @@ import FAQSection from "./FAQSection";
 import "./service.css"
 import Footer from "../Footer";
 import {
-    FaClock,
-    FaTools,
-    FaShieldAlt,
-    FaCheckCircle,
-    FaSearch,
-    FaPaintRoller,
-    FaClipboardCheck,
+  FaSearch,
+  FaTools,
+  FaPaintRoller,
+  FaClipboardCheck,
+  FaProjectDiagram,
+  FaShieldAlt,
+  FaTint,
+  FaClock,
+  FaCheckCircle,
 } from "react-icons/fa";
 
 // Steps Data
 const steps = [
-    {
-        id: 1,
-        title: "Surface Preparation",
-        desc: " Thoroughly clean the terrace to remove all dust, debris, and existing loose material.",
-        icon: <FaSearch />,
-    },
-    {
-        id: 2,
-        title: "Crack Repair",
-        desc: "Seal all visible cracks and joints using a flexible, polymer-modified crack filler.",
-        icon: <FaTools />,
-    },
-    {
-        id: 3,
-        title: "Primer Application",
-        desc: "Apply a suitable waterproofing primer to ensure strong adhesion of the subsequent layers.",
-        icon: <FaPaintRoller />,
-    },
-    {
-        id: 4,
-        title: "Waterproofing Layer",
-        desc: "Apply the primary waterproofing membrane or coating in multiple, uniform coats.",
-        icon: <FaClipboardCheck />,
-    },
-    {
-        id: 5,
-        title: "Joint and Corner Reinforcement",
-        desc: "Apply an additional layer of reinforcing mesh or tape at all critical joints and corners.",
-        icon: <FaCheckCircle />,
-    },
-     {
-        id: 6,
-        title: "Protective Layer ",
-        desc: "Add a protective screed or topcoat to shield the waterproofing from physical and UV damage.",
-        icon: <FaCheckCircle />,
-    },
-     {
-        id: 7,
-        title: "Drainage Check ",
-        desc: "Ensure all drainage points are clear and the slope of the terrace is adequate to prevent water stagnation.",
-        icon: <FaCheckCircle />,
-    },
+  {
+    id: 1,
+    title: "Surface Preparation",
+    desc: "Thoroughly clean the terrace to remove all dust, debris, and existing loose material.",
+    icon: <FaSearch />,
+  },
+  {
+    id: 2,
+    title: "Crack Repair",
+    desc: "Seal all visible cracks and joints using a flexible, polymer-modified crack filler.",
+    icon: <FaTools />,
+  },
+  {
+    id: 3,
+    title: "Primer Application",
+    desc: "Apply a suitable waterproofing primer to ensure strong adhesion of the subsequent layers.",
+    icon: <FaPaintRoller />,
+  },
+  {
+    id: 4,
+    title: "Waterproofing Layer",
+    desc: "Apply the primary waterproofing membrane or coating in multiple, uniform coats.",
+    icon: <FaClipboardCheck />,
+  },
+  {
+    id: 5,
+    title: "Joint and Corner Reinforcement",
+    desc: "Apply an additional layer of reinforcing mesh or tape at all critical joints and corners.",
+    icon: <FaProjectDiagram />, // structure/joint representation
+  },
+  {
+    id: 6,
+    title: "Protective Layer",
+    desc: "Add a protective screed or topcoat to shield the waterproofing from physical and UV damage.",
+    icon: <FaShieldAlt />, // protection shield
+  },
+  {
+    id: 7,
+    title: "Drainage Check",
+    desc: "Ensure all drainage points are clear and the slope of the terrace is adequate to prevent water stagnation.",
+    icon: <FaTint />, // water drop for drainage
+  },
 ];
+
 
 // Gallery Data
 const gallery = [
@@ -92,7 +95,7 @@ export default function TerraceWaterproofing() {
             <section
                 className="w-full h-[400px] sm:h-[500px] md:h-[600px] lg:h-[400px] text-white px-4 sm:px-8 text-center bg-cover bg-center relative"
                 style={{
-                    backgroundImage: "url('src/assets/bathroom-interior.jpg')",
+                    backgroundImage: "url('src/assets/Terrace-1.jpg')",
                 }}
             >
                 <div className="absolute inset-0 bg-black bg-opacity-60"></div>

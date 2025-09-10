@@ -4,53 +4,54 @@ import FAQSection from "./FAQSection";
 import "./service.css"
 import Footer from "../Footer";
 import {
-    FaClock,
-    FaTools,
-    FaShieldAlt,
-    FaCheckCircle,
-    FaSearch,
-    FaPaintRoller,
-    FaClipboardCheck,
+  FaSearch,
+  FaTools,
+  FaPaintRoller,
+  FaClipboardCheck,
+  FaProjectDiagram,
+  FaShieldAlt,
+  FaClock,
+  FaCheckCircle,
 } from "react-icons/fa";
 
 // Steps Data
 const steps = [
-    {
-        id: 1,
-        title: "Surface Preparation",
-        desc: "Begin by ensuring the wall is completely clean and free of all dirt, dust, and loose materials.",
-        icon: <FaSearch />,
-    },
-    {
-        id: 2,
-        title: "Crack and Void Filling",
-        desc: "Meticulously repair and fill all cracks, holes, and surface imperfections with a suitable, flexible sealant.",
-        icon: <FaTools />,
-    },
-    {
-        id: 3,
-        title: "Primer Application",
-        desc: "Follow up with the application of an elastomeric or acrylic waterproof coating, applied in multiple, even layers.",
-        icon: <FaPaintRoller />,
-    },
-    {
-        id: 4,
-        title: "Waterproofing Coating",
-        desc: "Apply a waterproof elastomeric or acrylic coating in two or more uniform coats.",
-        icon: <FaClipboardCheck />,
-    },
-    {
-        id: 5,
-        title: "Joint and Corner Sealing",
-        desc: "Pay close attention to all joints and corners, reinforcing them with additional sealant or a waterproofing tape for maximum protection.",
-        icon: <FaCheckCircle />,
-    },
-     {
-        id: 6,
-        title: "Protective Topcoat ",
-        desc: "Finish the process with a protective topcoat of paint to shield the waterproof layer from UV rays and physical wear.",
-        icon: <FaCheckCircle />,
-    },
+  {
+    id: 1,
+    title: "Surface Preparation",
+    desc: "Begin by ensuring the wall is completely clean and free of all dirt, dust, and loose materials.",
+    icon: <FaSearch />,
+  },
+  {
+    id: 2,
+    title: "Crack and Void Filling",
+    desc: "Meticulously repair and fill all cracks, holes, and surface imperfections with a suitable, flexible sealant.",
+    icon: <FaTools />,
+  },
+  {
+    id: 3,
+    title: "Primer Application",
+    desc: "Follow up with the application of an elastomeric or acrylic waterproof coating, applied in multiple, even layers.",
+    icon: <FaPaintRoller />,
+  },
+  {
+    id: 4,
+    title: "Waterproofing Coating",
+    desc: "Apply a waterproof elastomeric or acrylic coating in two or more uniform coats.",
+    icon: <FaClipboardCheck />,
+  },
+  {
+    id: 5,
+    title: "Joint and Corner Sealing",
+    desc: "Pay close attention to all joints and corners, reinforcing them with additional sealant or a waterproofing tape for maximum protection.",
+    icon: <FaProjectDiagram />, // joints/corner structure
+  },
+  {
+    id: 6,
+    title: "Protective Topcoat",
+    desc: "Finish the process with a protective topcoat of paint to shield the waterproof layer from UV rays and physical wear.",
+    icon: <FaShieldAlt />, // shield for protection
+  },
 ];
 
 // Gallery Data
