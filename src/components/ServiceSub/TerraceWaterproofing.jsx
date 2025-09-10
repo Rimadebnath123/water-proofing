@@ -87,6 +87,7 @@ const gallery = [
     },
 ];
 
+
 // Component
 export default function TerraceWaterproofing() {
     return (
@@ -234,7 +235,7 @@ export default function TerraceWaterproofing() {
 
             {/* Testimonial Section */}
             <section className="py-16 px-6 max-w-4xl mx-auto text-center">
-                <CustomerSuccessStories />
+                <CustomerSuccessStories type="terrace" />
             </section>
 
             {/* FAQ Section */}

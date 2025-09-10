@@ -225,10 +225,10 @@ export default function WallWaterproofing() {
                 </div>
             </section>
 
-            {/* Testimonial Section */}
-            <section className="py-16 px-6 max-w-4xl mx-auto text-center">
-                <CustomerSuccessStories />
-            </section>
+        {/* Testimonial Section */}
+         <section className="py-16 px-6 max-w-4xl mx-auto text-center">
+         <CustomerSuccessStories type="wall" />
+         </section>
 
             {/* FAQ Section */}
             <section className="py-16  bg-gray-100">

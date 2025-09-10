@@ -233,12 +233,12 @@ export default function FoundationWaterproofing() {
                 </div>
             </section>
 
-            {/* Testimonial Section */}
-            <section className="py-16 px-6 max-w-4xl mx-auto text-center">
-                <CustomerSuccessStories />
-            </section>
+        {/* Testimonial Section */}
+        <section className="py-16 px-6 max-w-4xl mx-auto text-center">
+        <CustomerSuccessStories type="foundation" />
+         </section>
 
-            {/* FAQ Section */}
+        {/* FAQ Section */}
             <section className="py-16  bg-gray-100">
                 <FAQSection type="foundation" />
             </section>

@@ -222,9 +222,9 @@ export default function SwimmingPoolWaterproofing() {
                 </div>
             </section>
 
-            {/* Testimonial Section */}
+             {/* Testimonial Section */}
             <section className="py-16 px-6 max-w-4xl mx-auto text-center">
-                <CustomerSuccessStories />
+                <CustomerSuccessStories type="swimmingpool" />
             </section>
 
             {/* FAQ Section */}
